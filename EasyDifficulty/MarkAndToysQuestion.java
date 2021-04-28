@@ -63,7 +63,7 @@ public class MarkAndToysQuestion {
 
     private static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) throws IOException, IOException {
+    public static void main(String[] args) throws IOException {
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
         String[] nk = scanner.nextLine().split(" ");
